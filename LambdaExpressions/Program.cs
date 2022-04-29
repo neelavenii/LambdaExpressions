@@ -11,7 +11,14 @@ namespace LambdaExpressions
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Lambda Expressions");
-            Console.ReadLine();
+            List<Person> list = new List<Person>();
+            PersonDataManagement.AddPersonDetails(list);
+            PersonDataManagement.DisplayPersonDetails(list);
+
+
         }
+
+       
     }
+    
 }
